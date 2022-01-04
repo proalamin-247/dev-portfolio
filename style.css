@@ -8,7 +8,7 @@ h1{
 .aut-name-style{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -37,4 +37,24 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-iteam{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 15px 15px rgb(151, 143, 143);
+    
+}
+.exp-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.border-color-1st{
+    border-left:10px solid tomato;
+}
+.border-color{
+    border-left:10px solid #ff287c;
 }
